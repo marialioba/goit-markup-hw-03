@@ -34,8 +34,7 @@ img {
   max-width: 1158px;
   padding: 15px;
   margin: 0 auto;
-
-  outline: 2px solid red;
+  outline: 2px;
   outline-offset: -2px;
 }
 
