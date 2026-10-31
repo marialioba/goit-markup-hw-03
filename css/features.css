@@ -1,8 +1,31 @@
 .feat {
+  padding: 0;
+
   background: #fff;
 }
 
+.feat ul {
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.feat-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 0 1 264px;
+  min-width: 0;
+}
+
 .feat-title {
+  margin-bottom: 8px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -12,10 +35,13 @@
 }
 
 .feat-text {
+  width: 264px;
+  height: 104px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  overflow-wrap: break-word;
 }

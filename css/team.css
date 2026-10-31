@@ -1,7 +1,26 @@
 .team {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background: #f4f4fd;
 }
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team ul {
+  width: calc((100% - 24px * 3) / 4);
+  border-radius: 0 0 4px 4px;
+  width: 264px;
+  height: 380px;
+}
+
+.team img {
+  margin-bottom: 32px;
+}
 .team > h2 {
+  margin-bottom: 72px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 36px;
