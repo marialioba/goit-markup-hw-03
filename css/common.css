@@ -60,8 +60,5 @@ button {
   border-radius: 4px;
   border: 1px solid transparent;
   padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  max-width: 169px;
   cursor: pointer;
 }

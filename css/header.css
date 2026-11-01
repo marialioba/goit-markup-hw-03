@@ -76,6 +76,7 @@
 }
 
 .contact-link {
+  display: block;
   padding-top: 24px;
   padding-bottom: 24px;
 }
