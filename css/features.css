@@ -1,13 +1,10 @@
 .feat {
-  padding: 0;
-
+  padding-top: 120px;
+  padding-bottom: 120px;
   background: #fff;
 }
 
-.feat ul {
-  padding-top: 120px;
-  padding-bottom: 120px;
-
+.feat-ul {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -19,7 +16,6 @@
 .feat-item {
   display: flex;
   flex-direction: column;
-  gap: 8px;
   flex: 0 1 264px;
   min-width: 0;
 }
@@ -35,8 +31,6 @@
 }
 
 .feat-text {
-  width: 264px;
-  height: 104px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
